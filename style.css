@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(161, 100, 223);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+
+    /* para que passem para o próxima linha */
+    flex-wrap: wrap;
+    /*  */
+    align-items: center;
+    justify-content: center;
+
+    /* vamos enviar uma linha para o centro */
+    text-align: center;
+    /*  */
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem; /* preenchimento superior e inferior */
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* DEFINIR A OPACIDADE */
+.btn:hover{
+    opacity: 0.9;
+}
+
+/* TIRAR O CONTORNO DOS BOTÕES */
+.btn:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
